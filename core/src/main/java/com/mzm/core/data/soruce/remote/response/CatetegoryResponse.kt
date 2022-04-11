@@ -1,4 +1,4 @@
-package com.mzm.core.data.remote.response
+package com.mzm.core.data.soruce.remote.response
 
 import com.google.gson.annotations.SerializedName
 

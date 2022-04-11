@@ -1,6 +1,6 @@
 package com.mzm.core.data.paging_source
 
-import com.mzm.core.data.remote.network.NewsApiService
+import com.mzm.core.data.soruce.remote.network.NewsApiService
 
 /**
  * Created by Muhammad Zaim Milzam on 08/04/2022.

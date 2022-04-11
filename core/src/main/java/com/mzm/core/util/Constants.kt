@@ -5,7 +5,7 @@ package com.mzm.core.util
  * linkedin : Muhammad Zaim Milzam
  */
 object Constants {
-    const val BASE_URL = "https://newsapi.org/v2"
+    const val BASE_URL = "https://newsapi.org/v2/"
     const val API_KEY = "54af70093dec40e894f634d08934af9a"
 
     const val DATABASE_VERSION = 1

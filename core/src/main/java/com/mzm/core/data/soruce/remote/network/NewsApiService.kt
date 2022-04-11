@@ -1,6 +1,7 @@
-package com.mzm.core.data.remote.network
+package com.mzm.core.data.soruce.remote.network
 
-import com.mzm.core.data.remote.response.CatetegoryResponse
+import com.mzm.core.data.soruce.remote.response.CatetegoryResponse
+import com.mzm.core.data.soruce.remote.response.SourcesResponse
 import com.mzm.core.util.Constants
 import retrofit2.Response
 import retrofit2.http.GET
@@ -17,4 +18,7 @@ interface NewsApiService {
         @Query("page") page: Int,
         @Query("category") category: String = "business"
     ): Response<CatetegoryResponse>
+
+    @GET("top-headlines/sources?apiKey=${Constants.API_KEY}")
+    suspend fun getSoruces(): Response<SourcesResponse>
 }
